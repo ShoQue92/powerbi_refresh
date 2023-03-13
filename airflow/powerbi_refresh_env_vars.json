@@ -1,0 +1,25 @@
+{
+    "DEV": [
+                            {   "sa_name":"sp-bdmintpbi-dev" ,
+                    "client_id":"<client_id>",
+                    "authority": "https://login.microsoftonline.com/40ce6286-0e4a-4500-8bb1-bf46447c5f7f",
+                    "scope": ["https://analysis.windows.net/powerbi/api/.default"]
+                }
+                        ],
+    "ACC": [
+
+                            {   "sa_name":"sp-bdmintpbi-acc" ,
+                    "client_id":"<client_id>",
+                    "authority": "https://login.microsoftonline.com/40ce6286-0e4a-4500-8bb1-bf46447c5f7f",
+                    "scope": ["https://analysis.windows.net/powerbi/api/.default"]
+                }
+                        ],
+    "PRD": [
+
+                            {   "sa_name":"sp-bdmintpbi-prd" ,
+                    "client_id":"<client_id>",
+                    "authority": "https://login.microsoftonline.com/40ce6286-0e4a-4500-8bb1-bf46447c5f7f",
+                    "scope": ["https://analysis.windows.net/powerbi/api/.default"]
+                }
+                        ]
+}
